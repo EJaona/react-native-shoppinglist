@@ -13,12 +13,7 @@ export default _ => {
 
     const [ newItem, setNewItem ] = useState([]);
 
-    useEffect(() => {
-
-        getData()
-
-    }, [])
-
+    
     const getData = async() => { // We will actually make a network request, so i'll leave this here.
 
 
