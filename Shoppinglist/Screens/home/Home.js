@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Text, View, FlatList } from 'react-native';
 
-import { styles } from '../App'
+import { styles } from '../../App'
 
 export default (  ) => {
 

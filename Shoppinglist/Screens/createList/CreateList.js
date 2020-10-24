@@ -3,10 +3,10 @@ import { View, FlatList, Image, Text, TextInput, Picker } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
-import ItemsList from './ItemsList';
-import CreateItem from './CreateItem';
-import CreateCategory from './CreateCategory';
-import MyShoppingList from './MyShoppingList';
+import ItemsList from '../../components/ItemsList';
+import CreateItem from '../../components/CreateItem';
+import CreateCategory from '../../components/CreateCategory';
+import MyShoppingList from '../myLists/MyShoppingList';
 const { Navigator, Screen } = createStackNavigator()
 
 export default _ => {

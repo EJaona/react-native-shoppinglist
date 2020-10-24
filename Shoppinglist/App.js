@@ -7,9 +7,9 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
 import RecentLists from './components/RecentLists';
-import CreateList from './components/CreateList';
-import Settings from './components/Settings';
-import Home from './components/Home';
+import CreateList from './Screens/createList/CreateList';
+import Settings from './Screens/settings/Settings';
+import Home from './Screens/home/Home';
 
 const { Navigator, Screen } = createBottomTabNavigator()
 

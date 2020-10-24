@@ -26,7 +26,7 @@ export default ({ route:{params:{ currentList }} }) => {
 
             />
 
-            <Text> Total for this trip: ~ {list.reduce((acc, cur) => acc += (cur.price * cur.quantity), 0) || 0 } </Text>
+            <Text> Total for this trip: ~ {list.reduce((acc, cur) => acc += (cur.price * cur.quantity), 0) || 0 } </Text> // This should be a function
             
         </View>
     )
